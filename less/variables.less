@@ -2,6 +2,8 @@
 // Variables
 // --------------------------------------------------
 
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700);
 
 // Global values
 // --------------------------------------------------
@@ -13,14 +15,15 @@
 @grayDarker:            #222;
 @grayDark:              #333;
 @gray:                  #555;
+@bodygray:				#888;
 @grayLight:             #999;
-@grayLighter:           #eee;
+@grayLighter:           #efefef;
 @white:                 #fff;
 
 
 // Accent colors
 // -------------------------
-@blue:                  #049cdb;
+@blue:                  #009dcd;
 @blueDark:              #0064cd;
 @green:                 #46a546;
 @red:                   #9d261d;
@@ -33,18 +36,18 @@
 // Scaffolding
 // -------------------------
 @bodyBackground:        @white;
-@textColor:             @grayDark;
+@textColor:             @bodygray;
 
 
 // Links
 // -------------------------
-@linkColor:             #08c;
-@linkColorHover:        darken(@linkColor, 15%);
+@linkColor:             @blue;
+@linkColorHover:        darken(@linkColor, 10%);
 
 
 // Typography
 // -------------------------
-@sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+@sansFontFamily:        Arial, Helvetica, sans-serif;
 @serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 @monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
@@ -53,9 +56,9 @@
 @baseLineHeight:        20px;
 @altFontFamily:         @serifFontFamily;
 
-@headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
-@headingsFontWeight:    bold;    // instead of browser default, bold
-@headingsColor:         inherit; // empty to use BS default, @textColor
+@headingsFontFamily:    "Titillium Web", sans-serif; // empty to use BS default, @baseFontFamily
+@headingsFontWeight:    normal;    // instead of browser default, bold
+@headingsColor:         @black; // empty to use BS default, @textColor
 
 
 // Component sizing
@@ -89,7 +92,7 @@
 @btnBorder:                         #ccc;
 
 @btnPrimaryBackground:              @linkColor;
-@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);
+@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 10%);
 
 @btnInfoBackground:                 #5bc0de;
 @btnInfoBackgroundHighlight:        #2f96b4;
@@ -180,29 +183,29 @@
 @navbarCollapseWidth:             979px;
 @navbarCollapseDesktopWidth:      @navbarCollapseWidth + 1;
 
-@navbarHeight:                    40px;
-@navbarBackgroundHighlight:       #ffffff;
+@navbarHeight:                    50px;
+@navbarBackgroundHighlight:       @blue;
 @navbarBackground:                darken(@navbarBackgroundHighlight, 5%);
-@navbarBorder:                    darken(@navbarBackground, 12%);
+@navbarBorder:                    darken(@navbarBackground, 5%);
 
-@navbarText:                      #777;
-@navbarLinkColor:                 #777;
-@navbarLinkColorHover:            @grayDark;
-@navbarLinkColorActive:           @gray;
+@navbarText:                      @white;
+@navbarLinkColor:                 @white;
+@navbarLinkColorHover:            darken(@blue, 20%);
+@navbarLinkColorActive:           @white;
 @navbarLinkBackgroundHover:       transparent;
-@navbarLinkBackgroundActive:      darken(@navbarBackground, 5%);
+@navbarLinkBackgroundActive:      darken(@navbarBackground, 10%);
 
 @navbarBrandColor:                @navbarLinkColor;
 
 // Inverted navbar
-@navbarInverseBackground:                #111111;
-@navbarInverseBackgroundHighlight:       #222222;
-@navbarInverseBorder:                    #252525;
+@navbarInverseBackground:                darken(@blue, 20%);
+@navbarInverseBackgroundHighlight:       darken(@blue, 20%);
+@navbarInverseBorder:                    darken(@blue, 20%);
 
-@navbarInverseText:                      @grayLight;
-@navbarInverseLinkColor:                 @grayLight;
-@navbarInverseLinkColorHover:            @white;
-@navbarInverseLinkColorActive:           @navbarInverseLinkColorHover;
+@navbarInverseText:                      @white;
+@navbarInverseLinkColor:                 @white;
+@navbarInverseLinkColorHover:            lighten(@blue, 30%);
+@navbarInverseLinkColorActive:           @white;
 @navbarInverseLinkBackgroundHover:       transparent;
 @navbarInverseLinkBackgroundActive:      @navbarInverseBackground;
 
@@ -224,7 +227,7 @@
 // Hero unit
 // -------------------------
 @heroUnitBackground:              @grayLighter;
-@heroUnitHeadingColor:            inherit;
+@heroUnitHeadingColor:            @blue;
 @heroUnitLeadColor:               inherit;
 
 
@@ -273,7 +276,7 @@
 // -------------------------
 @gridColumns:             12;
 @gridColumnWidth:         60px;
-@gridGutterWidth:         20px;
+@gridGutterWidth:         40px;
 @gridRowWidth:            (@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1));
 
 // 1200px min

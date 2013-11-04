@@ -1,11 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700);
+
 /*!
  * Bootstrap Responsive v2.3.2
  *
- * Copyright 2012 Twitter, Inc
+ * Copyright 2013 Twitter, Inc
  * Licensed under the Apache License v2.0
  * http://www.apache.org/licenses/LICENSE-2.0
  *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ * Designed and built with all the love in the world by @mdo and @fat.
  */
 
 .clearfix {
@@ -224,7 +226,7 @@
     width: 100%;
     min-height: 30px;
     margin-left: 2.564102564102564%;
-    *margin-left: 2.5109110747408616%;
+    *margin-left: 2.5209991158267018%;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
@@ -237,147 +239,147 @@
   }
   .row-fluid .span12 {
     width: 100%;
-    *width: 99.94680851063829%;
+    *width: 99.95689655172414%;
   }
   .row-fluid .span11 {
     width: 91.45299145299145%;
-    *width: 91.39979996362975%;
+    *width: 91.4098880047156%;
   }
   .row-fluid .span10 {
     width: 82.90598290598291%;
-    *width: 82.8527914166212%;
+    *width: 82.86287945770705%;
   }
   .row-fluid .span9 {
     width: 74.35897435897436%;
-    *width: 74.30578286961266%;
+    *width: 74.31587091069851%;
   }
   .row-fluid .span8 {
     width: 65.81196581196582%;
-    *width: 65.75877432260411%;
+    *width: 65.76886236368996%;
   }
   .row-fluid .span7 {
     width: 57.26495726495726%;
-    *width: 57.21176577559556%;
+    *width: 57.221853816681396%;
   }
   .row-fluid .span6 {
     width: 48.717948717948715%;
-    *width: 48.664757228587014%;
+    *width: 48.67484526967285%;
   }
   .row-fluid .span5 {
     width: 40.17094017094017%;
-    *width: 40.11774868157847%;
+    *width: 40.127836722664306%;
   }
   .row-fluid .span4 {
     width: 31.623931623931625%;
-    *width: 31.570740134569924%;
+    *width: 31.580828175655764%;
   }
   .row-fluid .span3 {
     width: 23.076923076923077%;
-    *width: 23.023731587561375%;
+    *width: 23.033819628647215%;
   }
   .row-fluid .span2 {
     width: 14.52991452991453%;
-    *width: 14.476723040552828%;
+    *width: 14.486811081638669%;
   }
   .row-fluid .span1 {
     width: 5.982905982905983%;
-    *width: 5.929714493544281%;
+    *width: 5.939802534630121%;
   }
   .row-fluid .offset12 {
     margin-left: 105.12820512820512%;
-    *margin-left: 105.02182214948171%;
+    *margin-left: 105.04199823165341%;
   }
   .row-fluid .offset12:first-child {
     margin-left: 102.56410256410257%;
-    *margin-left: 102.45771958537915%;
+    *margin-left: 102.47789566755085%;
   }
   .row-fluid .offset11 {
     margin-left: 96.58119658119658%;
-    *margin-left: 96.47481360247316%;
+    *margin-left: 96.49498968464486%;
   }
   .row-fluid .offset11:first-child {
     margin-left: 94.01709401709402%;
-    *margin-left: 93.91071103837061%;
+    *margin-left: 93.93088712054231%;
   }
   .row-fluid .offset10 {
     margin-left: 88.03418803418803%;
-    *margin-left: 87.92780505546462%;
+    *margin-left: 87.94798113763632%;
   }
   .row-fluid .offset10:first-child {
     margin-left: 85.47008547008548%;
-    *margin-left: 85.36370249136206%;
+    *margin-left: 85.38387857353376%;
   }
   .row-fluid .offset9 {
     margin-left: 79.48717948717949%;
-    *margin-left: 79.38079650845607%;
+    *margin-left: 79.40097259062777%;
   }
   .row-fluid .offset9:first-child {
     margin-left: 76.92307692307693%;
-    *margin-left: 76.81669394435352%;
+    *margin-left: 76.83687002652522%;
   }
   .row-fluid .offset8 {
     margin-left: 70.94017094017094%;
-    *margin-left: 70.83378796144753%;
+    *margin-left: 70.85396404361923%;
   }
   .row-fluid .offset8:first-child {
     margin-left: 68.37606837606839%;
-    *margin-left: 68.26968539734497%;
+    *margin-left: 68.28986147951667%;
   }
   .row-fluid .offset7 {
     margin-left: 62.393162393162385%;
-    *margin-left: 62.28677941443899%;
+    *margin-left: 62.30695549661066%;
   }
   .row-fluid .offset7:first-child {
     margin-left: 59.82905982905982%;
-    *margin-left: 59.72267685033642%;
+    *margin-left: 59.74285293250809%;
   }
   .row-fluid .offset6 {
     margin-left: 53.84615384615384%;
-    *margin-left: 53.739770867430444%;
+    *margin-left: 53.75994694960212%;
   }
   .row-fluid .offset6:first-child {
     margin-left: 51.28205128205128%;
-    *margin-left: 51.175668303327875%;
+    *margin-left: 51.19584438549955%;
   }
   .row-fluid .offset5 {
     margin-left: 45.299145299145295%;
-    *margin-left: 45.1927623204219%;
+    *margin-left: 45.21293840259357%;
   }
   .row-fluid .offset5:first-child {
     margin-left: 42.73504273504273%;
-    *margin-left: 42.62865975631933%;
+    *margin-left: 42.648835838491%;
   }
   .row-fluid .offset4 {
     margin-left: 36.75213675213675%;
-    *margin-left: 36.645753773413354%;
+    *margin-left: 36.66592985558503%;
   }
   .row-fluid .offset4:first-child {
     margin-left: 34.18803418803419%;
-    *margin-left: 34.081651209310785%;
+    *margin-left: 34.101827291482465%;
   }
   .row-fluid .offset3 {
     margin-left: 28.205128205128204%;
-    *margin-left: 28.0987452264048%;
+    *margin-left: 28.118921308576482%;
   }
   .row-fluid .offset3:first-child {
     margin-left: 25.641025641025642%;
-    *margin-left: 25.53464266230224%;
+    *margin-left: 25.554818744473916%;
   }
   .row-fluid .offset2 {
     margin-left: 19.65811965811966%;
-    *margin-left: 19.551736679396257%;
+    *margin-left: 19.571912761567933%;
   }
   .row-fluid .offset2:first-child {
     margin-left: 17.094017094017094%;
-    *margin-left: 16.98763411529369%;
+    *margin-left: 17.00781019746537%;
   }
   .row-fluid .offset1 {
     margin-left: 11.11111111111111%;
-    *margin-left: 11.004728132387708%;
+    *margin-left: 11.024904214559388%;
   }
   .row-fluid .offset1:first-child {
     margin-left: 8.547008547008547%;
-    *margin-left: 8.440625568285142%;
+    *margin-left: 8.460801650456823%;
   }
   input,
   textarea,
@@ -574,7 +576,7 @@
     width: 100%;
     min-height: 30px;
     margin-left: 2.7624309392265194%;
-    *margin-left: 2.709239449864817%;
+    *margin-left: 2.7193274909506573%;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
@@ -587,147 +589,147 @@
   }
   .row-fluid .span12 {
     width: 100%;
-    *width: 99.94680851063829%;
+    *width: 99.95689655172414%;
   }
   .row-fluid .span11 {
     width: 91.43646408839778%;
-    *width: 91.38327259903608%;
+    *width: 91.39336064012193%;
   }
   .row-fluid .span10 {
     width: 82.87292817679558%;
-    *width: 82.81973668743387%;
+    *width: 82.82982472851972%;
   }
   .row-fluid .span9 {
     width: 74.30939226519337%;
-    *width: 74.25620077583166%;
+    *width: 74.26628881691751%;
   }
   .row-fluid .span8 {
     width: 65.74585635359117%;
-    *width: 65.69266486422946%;
+    *width: 65.70275290531531%;
   }
   .row-fluid .span7 {
     width: 57.18232044198895%;
-    *width: 57.12912895262725%;
+    *width: 57.139216993713084%;
   }
   .row-fluid .span6 {
     width: 48.61878453038674%;
-    *width: 48.56559304102504%;
+    *width: 48.575681082110876%;
   }
   .row-fluid .span5 {
     width: 40.05524861878453%;
-    *width: 40.00205712942283%;
+    *width: 40.01214517050867%;
   }
   .row-fluid .span4 {
     width: 31.491712707182323%;
-    *width: 31.43852121782062%;
+    *width: 31.448609258906462%;
   }
   .row-fluid .span3 {
     width: 22.92817679558011%;
-    *width: 22.87498530621841%;
+    *width: 22.88507334730425%;
   }
   .row-fluid .span2 {
     width: 14.3646408839779%;
-    *width: 14.311449394616199%;
+    *width: 14.321537435702039%;
   }
   .row-fluid .span1 {
     width: 5.801104972375691%;
-    *width: 5.747913483013988%;
+    *width: 5.758001524099829%;
   }
   .row-fluid .offset12 {
     margin-left: 105.52486187845304%;
-    *margin-left: 105.41847889972962%;
+    *margin-left: 105.43865498190132%;
   }
   .row-fluid .offset12:first-child {
     margin-left: 102.76243093922652%;
-    *margin-left: 102.6560479605031%;
+    *margin-left: 102.6762240426748%;
   }
   .row-fluid .offset11 {
     margin-left: 96.96132596685082%;
-    *margin-left: 96.8549429881274%;
+    *margin-left: 96.8751190702991%;
   }
   .row-fluid .offset11:first-child {
     margin-left: 94.1988950276243%;
-    *margin-left: 94.09251204890089%;
+    *margin-left: 94.11268813107259%;
   }
   .row-fluid .offset10 {
     margin-left: 88.39779005524862%;
-    *margin-left: 88.2914070765252%;
+    *margin-left: 88.3115831586969%;
   }
   .row-fluid .offset10:first-child {
     margin-left: 85.6353591160221%;
-    *margin-left: 85.52897613729868%;
+    *margin-left: 85.54915221947039%;
   }
   .row-fluid .offset9 {
     margin-left: 79.8342541436464%;
-    *margin-left: 79.72787116492299%;
+    *margin-left: 79.74804724709469%;
   }
   .row-fluid .offset9:first-child {
     margin-left: 77.07182320441989%;
-    *margin-left: 76.96544022569647%;
+    *margin-left: 76.98561630786817%;
   }
   .row-fluid .offset8 {
     margin-left: 71.2707182320442%;
-    *margin-left: 71.16433525332079%;
+    *margin-left: 71.18451133549249%;
   }
   .row-fluid .offset8:first-child {
     margin-left: 68.50828729281768%;
-    *margin-left: 68.40190431409427%;
+    *margin-left: 68.42208039626597%;
   }
   .row-fluid .offset7 {
     margin-left: 62.70718232044199%;
-    *margin-left: 62.600799341718584%;
+    *margin-left: 62.62097542389026%;
   }
   .row-fluid .offset7:first-child {
     margin-left: 59.94475138121547%;
-    *margin-left: 59.838368402492065%;
+    *margin-left: 59.85854448466374%;
   }
   .row-fluid .offset6 {
     margin-left: 54.14364640883978%;
-    *margin-left: 54.037263430116376%;
+    *margin-left: 54.05743951228805%;
   }
   .row-fluid .offset6:first-child {
     margin-left: 51.38121546961326%;
-    *margin-left: 51.27483249088986%;
+    *margin-left: 51.29500857306153%;
   }
   .row-fluid .offset5 {
     margin-left: 45.58011049723757%;
-    *margin-left: 45.47372751851417%;
+    *margin-left: 45.49390360068584%;
   }
   .row-fluid .offset5:first-child {
     margin-left: 42.81767955801105%;
-    *margin-left: 42.71129657928765%;
+    *margin-left: 42.73147266145932%;
   }
   .row-fluid .offset4 {
     margin-left: 37.01657458563536%;
-    *margin-left: 36.91019160691196%;
+    *margin-left: 36.93036768908364%;
   }
   .row-fluid .offset4:first-child {
     margin-left: 34.25414364640884%;
-    *margin-left: 34.14776066768544%;
+    *margin-left: 34.16793674985712%;
   }
   .row-fluid .offset3 {
     margin-left: 28.45303867403315%;
-    *margin-left: 28.346655695309746%;
+    *margin-left: 28.366831777481426%;
   }
   .row-fluid .offset3:first-child {
     margin-left: 25.69060773480663%;
-    *margin-left: 25.584224756083227%;
+    *margin-left: 25.604400838254907%;
   }
   .row-fluid .offset2 {
     margin-left: 19.88950276243094%;
-    *margin-left: 19.783119783707537%;
+    *margin-left: 19.803295865879218%;
   }
   .row-fluid .offset2:first-child {
     margin-left: 17.12707182320442%;
-    *margin-left: 17.02068884448102%;
+    *margin-left: 17.0408649266527%;
   }
   .row-fluid .offset1 {
     margin-left: 11.32596685082873%;
-    *margin-left: 11.219583872105325%;
+    *margin-left: 11.239759954277005%;
   }
   .row-fluid .offset1:first-child {
     margin-left: 8.56353591160221%;
-    *margin-left: 8.457152932878806%;
+    *margin-left: 8.477329015050486%;
   }
   input,
   textarea,
@@ -993,14 +995,14 @@
     display: none;
   }
   .nav-collapse .nav .nav-header {
-    color: #777777;
+    color: #ffffff;
     text-shadow: none;
   }
   .nav-collapse .nav > li > a,
   .nav-collapse .dropdown-menu a {
     padding: 9px 15px;
     font-weight: bold;
-    color: #777777;
+    color: #ffffff;
     -webkit-border-radius: 3px;
        -moz-border-radius: 3px;
             border-radius: 3px;
@@ -1019,17 +1021,17 @@
   .nav-collapse .nav > li > a:focus,
   .nav-collapse .dropdown-menu a:hover,
   .nav-collapse .dropdown-menu a:focus {
-    background-color: #f2f2f2;
+    background-color: #0089b4;
   }
   .navbar-inverse .nav-collapse .nav > li > a,
   .navbar-inverse .nav-collapse .dropdown-menu a {
-    color: #999999;
+    color: #ffffff;
   }
   .navbar-inverse .nav-collapse .nav > li > a:hover,
   .navbar-inverse .nav-collapse .nav > li > a:focus,
   .navbar-inverse .nav-collapse .dropdown-menu a:hover,
   .navbar-inverse .nav-collapse .dropdown-menu a:focus {
-    background-color: #111111;
+    background-color: #004f67;
   }
   .nav-collapse.in .btn-group {
     padding: 0;
@@ -1072,16 +1074,16 @@
     float: none;
     padding: 10px 15px;
     margin: 10px 0;
-    border-top: 1px solid #f2f2f2;
-    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid #0089b4;
+    border-bottom: 1px solid #0089b4;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
        -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
             box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   }
   .navbar-inverse .nav-collapse .navbar-form,
   .navbar-inverse .nav-collapse .navbar-search {
-    border-top-color: #111111;
-    border-bottom-color: #111111;
+    border-top-color: #004f67;
+    border-bottom-color: #004f67;
   }
   .navbar .nav-collapse .nav.pull-right {
     float: none;
@@ -1105,5 +1107,52 @@
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
+  }
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 0 !important;
+  }
+  .navbar .btn-navbar {
+    margin-bottom: 10px;
+  }
+  ul.nav {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .nav-collapse .nav > li > a {
+    font-weight: normal;
+    text-shadow: none;
+  }
+  .nav-collapse .nav > li > a:hover,
+  .nav-collapse .nav > li > a:focus {
+    color: #fff;
+    background-color: #006281;
+  }
+  .nav-collapse .nav > li.active a,
+  .nav-collapse .nav > li.active a:hover {
+    color: #fff;
+    background-color: #006281;
+  }
+  .nav-collapse .dropdown-menu a {
+    font-weight: normal;
+    text-shadow: none;
+  }
+  .nav-collapse ul.dropdown-menu {
+    margin: 0;
+  }
+  .nav-collapse ul.dropdown-menu a:hover,
+  .nav-collapse ul.dropdown-menu a:focus {
+    color: #fff;
+    background-color: #00B9ED;
+  }
+  .dropdown-menu > .active > a,
+  .dropdown-menu > .active > a:hover,
+  .dropdown-menu > .active > a:focus {
+    background-image: none;
+  }
+  .login-portlet-wrapper {
+    width: 100%;
   }
 }
