@@ -1031,7 +1031,7 @@
   .navbar-inverse .nav-collapse .nav > li > a:focus,
   .navbar-inverse .nav-collapse .dropdown-menu a:hover,
   .navbar-inverse .nav-collapse .dropdown-menu a:focus {
-    background-color: #004f67;
+    background-color: #333333;
   }
   .nav-collapse.in .btn-group {
     padding: 0;
@@ -1082,8 +1082,8 @@
   }
   .navbar-inverse .nav-collapse .navbar-form,
   .navbar-inverse .nav-collapse .navbar-search {
-    border-top-color: #004f67;
-    border-bottom-color: #004f67;
+    border-top-color: #333333;
+    border-bottom-color: #333333;
   }
   .navbar .nav-collapse .nav.pull-right {
     float: none;
@@ -1117,10 +1117,6 @@
   .navbar .btn-navbar {
     margin-bottom: 10px;
   }
-  ul.nav {
-    padding: 0 !important;
-    margin: 0 !important;
-  }
   .nav-collapse .nav > li > a {
     font-weight: normal;
     text-shadow: none;
@@ -1145,12 +1141,41 @@
   .nav-collapse ul.dropdown-menu a:hover,
   .nav-collapse ul.dropdown-menu a:focus {
     color: #fff;
-    background-color: #00B9ED;
+    background-color: #28B5E0;
   }
-  .dropdown-menu > .active > a,
-  .dropdown-menu > .active > a:hover,
-  .dropdown-menu > .active > a:focus {
-    background-image: none;
+  .nav-collapse ul.dropdown-menu {
+    margin: 0;
+  }
+  .nav-collapse ul.dropdown-menu a:hover,
+  .nav-collapse ul.dropdown-menu a:focus {
+    color: #fff;
+    background-color: #28B5E0;
+  }
+  .nav-collapse.navbar-inverse-collapse .nav > li > a:hover,
+  .nav-collapse.navbar-inverse-collapse .nav > li > a:focus {
+    color: #fff;
+    background-color: #0d0d0d;
+  }
+  .nav-collapse.navbar-inverse-collapse .nav > li.active a,
+  .nav-collapse.navbar-inverse-collapse .nav > li.active a:hover {
+    color: #fff;
+    background-color: #0d0d0d;
+  }
+  .nav-collapse.navbar-inverse-collapse ul.dropdown-menu {
+    margin: 0;
+  }
+  .nav-collapse.navbar-inverse-collapse ul.dropdown-menu a:hover,
+  .nav-collapse.navbar-inverse-collapse ul.dropdown-menu a:focus {
+    color: #fff;
+    background-color: #222;
+  }
+  .nav-collapse.navbar-inverse-collapse ul.dropdown-menu {
+    margin: 0;
+  }
+  .nav-collapse.navbar-inverse-collapse ul.dropdown-menu a:hover,
+  .nav-collapse.navbar-inverse-collapse ul.dropdown-menu a:focus {
+    color: #fff;
+    background-color: #222;
   }
   .login-portlet-wrapper {
     width: 100%;

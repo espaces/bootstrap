@@ -15,7 +15,7 @@
 @grayDarker:            #222;
 @grayDark:              #333;
 @gray:                  #555;
-@bodygray:				#888;
+@bodyGray:				#888;
 @grayLight:             #999;
 @grayLighter:           #efefef;
 @white:                 #fff;
@@ -36,7 +36,7 @@
 // Scaffolding
 // -------------------------
 @bodyBackground:        @white;
-@textColor:             @bodygray;
+@textColor:             @bodyGray;
 
 
 // Links
@@ -94,8 +94,8 @@
 @btnPrimaryBackground:              @linkColor;
 @btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 10%);
 
-@btnInfoBackground:                 #5bc0de;
-@btnInfoBackgroundHighlight:        #2f96b4;
+@btnInfoBackground:                 #3ac3ed;
+@btnInfoBackgroundHighlight:        #1aa8d3;
 
 @btnSuccessBackground:              #62c462;
 @btnSuccessBackgroundHighlight:     #51a351;
@@ -175,7 +175,7 @@
 
 // Wells
 // -------------------------
-@wellBackground:                  #f5f5f5;
+@wellBackground:                  #fff;
 
 
 // Navbar
@@ -193,21 +193,21 @@
 @navbarLinkColorHover:            darken(@blue, 20%);
 @navbarLinkColorActive:           @white;
 @navbarLinkBackgroundHover:       transparent;
-@navbarLinkBackgroundActive:      darken(@navbarBackground, 10%);
+@navbarLinkBackgroundActive:      @navbarBackground;
 
 @navbarBrandColor:                @navbarLinkColor;
 
 // Inverted navbar
-@navbarInverseBackground:                darken(@blue, 20%);
-@navbarInverseBackgroundHighlight:       darken(@blue, 20%);
-@navbarInverseBorder:                    darken(@blue, 20%);
+@navbarInverseBackground:                @grayDark;
+@navbarInverseBackgroundHighlight:       @grayDark;
+@navbarInverseBorder:                    darken(@grayDark, 5%);
 
 @navbarInverseText:                      @white;
 @navbarInverseLinkColor:                 @white;
-@navbarInverseLinkColorHover:            lighten(@blue, 30%);
+@navbarInverseLinkColorHover:            @grayLight;
 @navbarInverseLinkColorActive:           @white;
 @navbarInverseLinkBackgroundHover:       transparent;
-@navbarInverseLinkBackgroundActive:      @navbarInverseBackground;
+@navbarInverseLinkBackgroundActive:      darken(@grayDark, 5%);
 
 @navbarInverseSearchBackground:          lighten(@navbarInverseBackground, 25%);
 @navbarInverseSearchBackgroundFocus:     @white;
